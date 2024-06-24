@@ -24,11 +24,17 @@ Landing page Code: [Landing Page](octanet_justbikes_landing_page/pages/landing_p
 ![Homepage scrolled](Screenshots/landing-page-phone-2.png)
 ![Homepage end](Screenshots/landing-page-phone-3.png)
 
-## 2) A To-do list app
+## 2) A Simple To-do list app
 
-For this, I went with Svelte and TailwindCSS.
+For this, I chose to go with Vanilla JS, HTML and CSS combination, just to understand the workings of a simple website like this in detail.
 
-Again, I picked Svelte because it was easy to pick up for beginners, and the fact that MDN had an tutorial for a To-Do app using Svelte.
+I took the help of [this article](https://hackr.io/blog/how-to-create-a-javascript-to-do-list). It had some problems, which I solved and changed the background to just be plain gray. I also chose to add local storage function so that tasks are not deleted once the page is refreshed.
 
-I just installed npm, and using the Sveltekit guides on Svelte and TailwindCSS's websites, I set up the basic layout of the app.
+### Screenshots
+
+**Similar on phone and desktop**
+
+![Tasks Added and one Completed](Screenshots/tdl-task-added.png)
+![Tasks being edited](Screenshots/tdl-tasks-edited.png)
+![A task deleted](Screenshots/tdl-task-deleted.png)
 
